@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Nombre_del_recurso_educativo',
     descripcionCurso: 'Descripción_del_RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -51,6 +51,12 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
+        titulo: 'Titulo_de_primer_nivel',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
         titulo: 'Titulo_de_primer_nivel',
         desarrolloContenidos: true,
       },
