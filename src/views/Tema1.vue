@@ -5,8 +5,17 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
-      h1 Titulo_de_primer_nivel
+      h1 Novedades en la afiliación al SGSSS
 
+
+    separador
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.1 Normativa específica relacionada
+
+      
+    separador
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.2 Procedimiento para modificar afiliación al SGSSS 
 
 </template>
 

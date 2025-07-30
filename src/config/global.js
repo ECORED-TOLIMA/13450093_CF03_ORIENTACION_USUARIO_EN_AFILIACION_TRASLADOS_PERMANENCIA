@@ -1,7 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre_del_recurso_educativo',
-    descripcionCurso: 'Descripción_del_RED',
+    componenteFormativo:
+      'Gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+    descripcionCurso:
+      'Este componente introduce a los aprendices en la forma de tramitar novedades en la afiliación al sistema de salud, considerando procedimientos, requisitos y la normativa vigente. Se describen conceptos como el de portabilidad, su alcance y técnicas de comunicación para la atención de usuarios del sistema de salud colombiano.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,13 +33,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Novedades en la afiliación al SGSSS',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Normativa específica relacionada',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Procedimiento para modificar afiliación al SGSSS',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,20 +52,52 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Portabilidad en el sistema de salud colombiano',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Proceso de solicitud de novedad en la afiliación',
+            hash: 't_2_1',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Servicio al cliente',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Estrategias de servicio al cliente',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Comunicación asertiva',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Enfoque diferencial en salud',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Principios del enfoque diferencial en salud',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo:
+              ' Aplicación del enfoque diferencial en los procesos de afiliación',
+            hash: 't_4_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -108,28 +147,113 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '1. Novedades en la afiliación al SGSSS',
+      referencia:
+        'Ministerio de Salud y Protección Social. (2022, 15 de septiembre). Afiliación al Sistema de Salud [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=e0IWd1YdkUc',
     },
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1.2. Procedimiento para modificar afiliación al SGSSS',
+      referencia:
+        'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio). Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0HeR3rr7l5U ',
+    },
+    {
+      tema: '2. Portabilidad en el sistema de salud colombiano',
+      referencia:
+        'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio). Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=0HeR3rr7l5U ',
     },
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Afiliación:',
+      significado:
+        'proceso mediante el cual una persona se inscribe en el Sistema General de Seguridad Social en Salud. ',
+    },
+    {
+      termino: 'BDUA:',
+      significado: 'Base de Datos Única de Afiliados. ',
+    },
+    {
+      termino: 'Comunicación asertiva:',
+      significado:
+        'refiere a un estilo de comunicación que permite expresarse de manera firme y precisa. ',
+    },
+    {
+      termino: 'Enfoque diferencial:',
+      significado:
+        'es un método de atención que considera las características propias de cada individuo.  ',
+    },
+    {
+      termino: 'EPS:',
+      significado: 'Entidad Promotora de Servicios de Salud.',
+    },
+    {
+      termino: 'Novedad en la afiliación:',
+      significado:
+        'todos los cambios que la persona haga de sus datos en el sistema.',
+    },
+    {
+      termino: 'Portabilidad: ',
+      significado:
+        'garantía de atención en salud en cualquier lugar del territorio. ',
+    },
+    {
+      termino: 'Régimen contributivo: ',
+      significado:
+        'régimen para las personas en condiciones socioeconómicas con incapacidad de pago.',
+    },
+    {
+      termino: 'Régimen subsidiado: ',
+      significado:
+        'régimen diseñado para la población afiliada con capacidad de pago.',
+    },
+    {
+      termino: 'SAT:',
+      significado:
+        'es la plataforma digital Sistema de Afiliación Transaccional.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Congreso de Colombia. (2011). Ley 1438 de 2011: Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. Diario Oficial No. 47.957. ',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1438_2011.html',
+    },
+    {
+      referencia:
+        'Función Pública. (1991). Constitución Política de Colombia. ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=4125',
+    },
+    {
+      referencia:
+        'Función Pública. (2013). Decreto 1683 de 2013: Por el cual se reglamenta el artículo 22 de la Ley 1438 de 2011 sobre portabilidad nacional en el Sistema General de Seguridad Social en Salud. ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=54074 ',
+    },
+    {
+      referencia:
+        'Función Pública. (2016). Decreto 780 de 2016: Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77813 ',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y protección Social. (2007). Ley 1122 de 2007: Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-1122-de-2007.pdf ',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (2016). Resolución 4622 de 2016: Por la cual se establece el reporte de los datos de afiliación al Sistema General de Seguridad Social en Salud, a planes voluntarios, Regímenes Especial y de Excepción y de las personas privadas de la libertad bajo la custodia y vigilancia del INPEC. ',
+      link:
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-4622-de-2016.pdf ',
     },
   ],
   creditos: [

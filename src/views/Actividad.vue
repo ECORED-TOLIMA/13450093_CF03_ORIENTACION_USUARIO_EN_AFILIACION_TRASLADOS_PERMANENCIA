@@ -20,287 +20,307 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto: 'texto_pregunta',
+          texto:
+            'La Ley 1438 de 2011 eliminó los periodos de carencia para acceder a servicios de salud.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: 'texto_pregunta',
+          texto:
+            'El SAT es una plataforma digital que permite registrar afiliaciones y novedades en el sistema de salud.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: 'texto_pregunta',
+          texto:
+            'El registro civil de nacimiento es necesario para afiliar a un recién nacido.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto: 'texto_pregunta',
+          texto:
+            'El usuario debe ser ignorado si se encuentra molesto durante el trámite.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: 'texto_pregunta',
+          texto:
+            'Una persona que pierde su empleo debe continuar en el régimen contributivo sin cambios.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: 'texto_pregunta',
+          texto:
+            'Las novedades en la afiliación no son necesarias si el usuario no cambia de ciudad.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto: 'texto_pregunta',
+          texto:
+            'La portabilidad permite recibir atención médica en cualquier parte del país, sin necesidad de cambiar de EPS.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto: 'texto_pregunta',
+          texto:
+            'La inclusión de un padre como beneficiario no requiere ningún tipo de certificación.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto: 'texto_pregunta',
+          texto:
+            'El Decreto 780 de 2016 contiene todas las normas relacionadas con afiliación y novedades.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: 'texto_pregunta',
+          texto:
+            'La BDUA es una base de datos para consultar el estado de afiliación de un usuario.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto: 'texto_pregunta',
+          texto:
+            'La Resolución 4622 de 2016 regula el procedimiento de afiliación y novedades en salud',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto: 'texto_pregunta',
+          texto:
+            'La comunicación asertiva implica hablar con firmeza y respeto para orientar al usuario.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto: 'texto_pregunta',
+          texto:
+            'La afiliación al SGSSS es un derecho condicionado al nivel socioeconómico del usuario.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto: 'texto_pregunta',
+          texto:
+            'La comunicación escrita también debe ser clara y sin abreviaturas innecesarias.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto: 'texto_pregunta',
+          texto:
+            'El acta de defunción es necesaria para retirar del sistema a una persona fallecida.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
-          texto: 'texto_pregunta',
+          texto:
+            'Para cambiar datos personales, se debe presentar un documento actualizado',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto: 'texto_pregunta',
+          texto:
+            'Para trasladarse de EPS, se requiere haber permanecido en la EPS anterior al menos 180 días.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
-          texto: 'texto_pregunta',
+          texto:
+            'La orientación debe brindarse solo si el usuario pregunta expresamente.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
-          texto: 'texto_pregunta',
+          texto:
+            'La afiliación al sistema de salud solo puede hacerse de forma presencial.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
-          texto: 'texto_pregunta',
+          texto:
+            'El enfoque diferencial busca aplicar el mismo trato a todos los usuarios por igual.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: false },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! Lo felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Excelente! Felicitaciones, ha superado la actividad y demuestra sólidos conocimientos sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
       mensaje_final_reprobado:
         'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
