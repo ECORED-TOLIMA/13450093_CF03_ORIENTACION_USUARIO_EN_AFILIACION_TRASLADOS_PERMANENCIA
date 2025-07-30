@@ -170,50 +170,50 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Afiliación:',
+      termino: 'Afiliación',
       significado:
         'proceso mediante el cual una persona se inscribe en el Sistema General de Seguridad Social en Salud. ',
     },
     {
-      termino: 'BDUA:',
+      termino: 'BDUA',
       significado: 'Base de Datos Única de Afiliados. ',
     },
     {
-      termino: 'Comunicación asertiva:',
+      termino: 'Comunicación asertiva',
       significado:
         'refiere a un estilo de comunicación que permite expresarse de manera firme y precisa. ',
     },
     {
-      termino: 'Enfoque diferencial:',
+      termino: 'Enfoque diferencial',
       significado:
         'es un método de atención que considera las características propias de cada individuo.  ',
     },
     {
-      termino: 'EPS:',
+      termino: 'EPS',
       significado: 'Entidad Promotora de Servicios de Salud.',
     },
     {
-      termino: 'Novedad en la afiliación:',
+      termino: 'Novedad en la afiliación',
       significado:
         'todos los cambios que la persona haga de sus datos en el sistema.',
     },
     {
-      termino: 'Portabilidad: ',
+      termino: 'Portabilidad',
       significado:
         'garantía de atención en salud en cualquier lugar del territorio. ',
     },
     {
-      termino: 'Régimen contributivo: ',
+      termino: 'Régimen contributivo',
       significado:
         'régimen para las personas en condiciones socioeconómicas con incapacidad de pago.',
     },
     {
-      termino: 'Régimen subsidiado: ',
+      termino: 'Régimen subsidiado',
       significado:
         'régimen diseñado para la población afiliada con capacidad de pago.',
     },
     {
-      termino: 'SAT:',
+      termino: 'SAT',
       significado:
         'es la plataforma digital Sistema de Afiliación Transaccional.',
     },
@@ -262,7 +262,8 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
@@ -276,9 +277,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Cargo_Experto',
-          centro: 'Regional_Experto',
+          nombre: 'Christian Llano Villegas',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional ',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -286,17 +292,33 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Oscar Ivan Uribe Ortiz',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Desarrollador <em>full stack</em>',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'José Jaime Luis Tang Pinzón',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador <em>Full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+
+        {
+          nombre: 'Veimar Celis Meléndez',
+          cargo: 'Desarrollador <em>Full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -306,12 +328,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_Experto',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_Experto',
+          nombre: 'Javier Mauricio Oviedo',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
