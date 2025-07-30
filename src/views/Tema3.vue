@@ -5,8 +5,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero(data-aos="fade-right")
         span 3
-      h1 Titulo_de_primer_nivel
-
+      h1 Servicio al cliente
+    separador
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.1 Estrategias de servicio al cliente
+    separador
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.2 Comunicación asertiva
 </template>
 
 <script>
