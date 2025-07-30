@@ -142,18 +142,18 @@
         .cajon.color-secundario.p-4.mb-4
           p Aplicación práctica: 
           p Cualquier novedad en la afiliación que limite el acceso oportuno a servicios atenta contra este derecho fundamental. 
-          p La afiliación al SGSSS hace parte del cumplimiento del derecho a la seguridad social. Toda persona debe poder afiliarse y reportar novedades sin barreras.
+          p.mb-0 La afiliación al SGSSS hace parte del cumplimiento del derecho a la seguridad social. Toda persona debe poder afiliarse y reportar novedades sin barreras.
     .tarjeta-BG02.lg-px-5.px-4
       .titulo.mb-4(data-aos="flip-up")
         img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
         h5.mb-0 Decreto 780 de 2016
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5
+        .col-lg-5.order-2.order-lg-1
           p Es una norma muy importante porque reúne en un solo documento, todas las reglas que deben seguirse en el sistema de salud colombiano. 
           p En lo relacionado con la afiliación y las novedades, este decreto explica quiénes pueden afiliarse al sistema, cómo se hace el proceso de afiliación inicial y qué trámites deben hacerse cuando hay cambios en la información del usuario, como el traslado de EPS, el cambio de datos personales, la inclusión o retiro de familiares, el cambio de régimen (de subsidiado a contributivo o viceversa) o el cambio de lugar de residencia. 
           p También indica qué documentos se deben presentar y quién es responsable de hacer el trámite. Este decreto ayuda a que todos los procesos se hagan de forma clara, organizada y legal, garantizando que las personas sigan recibiendo atención en salud sin interrupciones.
 
-        .col-lg-5
+        .col-lg-5.col-10.order-1.order-lg-2.mb-md-4.mb-sm-4
           figure
             img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen')
     .titulo.mb-4(data-aos="flip-up")

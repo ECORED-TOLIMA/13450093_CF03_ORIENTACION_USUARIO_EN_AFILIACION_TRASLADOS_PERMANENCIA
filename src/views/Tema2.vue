@@ -91,7 +91,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-primario.p-4.mb-4
-          p Si el usuario no recibe confirmación dentro del plazo indicado, debe saber cómo hacer seguimiento o reclamar ante la EPS o la Superintendencia Nacional de Salud.
+          p.mb-0 Si el usuario no recibe confirmación dentro del plazo indicado, debe saber cómo hacer seguimiento o reclamar ante la EPS o la Superintendencia Nacional de Salud.
 </template>
 
 <script>
