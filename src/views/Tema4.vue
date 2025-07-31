@@ -4,11 +4,11 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero(data-aos="fade-right")
-        span 3
+        span 4
       h1 Enfoque diferencial en salud
     p.mb-4 En el contexto de la afiliación y trámite de novedades en el sistema de salud colombiano (SGSSS), el enfoque diferencial se refiere a la adaptación del proceso de atención a las características particulares de cada persona o grupo poblacional. 
     p.mb-4 Su objetivo es garantizar un acceso efectivo, equitativo y digno al derecho a la salud, superando barreras relacionadas con el género, la edad, la etnia, la discapacidad, la orientación sexual, la situación socioeconómica o el contexto territorial.
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema4/img1.png')})`}"
       )
@@ -40,9 +40,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
-          p La importancia del enfoque diferencial radica en que permite que el derecho a la salud se cumpla en condiciones de equidad real. No se debe tratar a todas las personas por igual, se debe brindar a cada una lo que necesita para estar en igualdad de condiciones frente al sistema. 
+          p.mb-0 La importancia del enfoque diferencial radica en que permite que el derecho a la salud se cumpla en condiciones de equidad real. No se debe tratar a todas las personas por igual, se debe brindar a cada una lo que necesita para estar en igualdad de condiciones frente al sistema. 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7.order-lg-1
+      .col-lg-7.order-lg-1.order-2
         p En el trámite de novedades, esto puede significar tomarse más tiempo para explicar un procedimiento, utilizar otro idioma o dialecto, ayudar a llenar un formulario o permitir que un tercero autorizado actúe como representante.
         p Aplicar el enfoque diferencial en los procesos de afiliación y novedades del SGSSS, implica ver al usuario como un sujeto de derechos y no como un simple trámite administrativo. Significa adaptar el servicio a su realidad, garantizando que, sin importar su situación, pueda ejercer plenamente su derecho a la salud.
 
@@ -101,7 +101,7 @@
       h2 4.2. Aplicación del enfoque diferencial en los procesos de afiliación
     p.mb-4 Algunos ejemplos de aplicación de enfoque diferencial son:
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.tarjcone.p-5
+      .col-lg.tarjeta.color-primario.tarjcone.p-5
         .row.justify-content-center.mb-4
           .col-5
             figure
@@ -132,7 +132,7 @@
     p.mb-4 En todos estos casos, aplicar el enfoque diferencial significa no hacer un trámite automático, sino ver a cada usuario como un sujeto con derechos y adaptar el servicio para que pueda ejercerlos, independientemente de su condición o dificultad.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4
           p.mb-0 Esto fortalece una atención humanizada, justa e incluyente, que responde verdaderamente a las necesidades de la población colombiana en toda su diversidad.
 </template>
 

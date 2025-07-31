@@ -38,7 +38,7 @@
       .col-lg-4.col-8.col-sm-3.order-lg-2.order-1.mb-md-4
         figure
           img(src='@/assets/curso/temas/tema3/img2.png', alt='Texto que describa la imagen')
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 En conjunto, estas estrategias aseguran una atención centrada en el usuario, enfocada en la solución y alineada con los principios de calidad, oportunidad y respeto en los servicios de salud.
@@ -49,7 +49,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .row.justify-content-center.align-items-center.tarjeta-cuadro.color-primario.p-3
-          .col-lg-4.col-8.col-sm-3.mb-md-4
+          .col-lg-4.col-8.mb-md-4
             figure
               img(src='@/assets/curso/temas/tema3/img3.svg', alt='Texto que describa la imagen')
           .col-lg-6

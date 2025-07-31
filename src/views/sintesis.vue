@@ -11,7 +11,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis del componente formativo Gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario, se parte del proceso de las novedades que hay presentes con temas de afiliación, lo cual se debe llevar a cabo acorde a la normativa existente. Además, se ahonda en los beneficios que hay en temas de portabilidad, así como las estrategias que se llevan a cabo para tener un buen servicio al cliente, logrando con ello, una comunicación asertiva. Luego, se finaliza con la explicación de los principios que hay en un enfoque diferencial y los ejemplos prácticos de situaciones reales que se pueden presentar en este entorno.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

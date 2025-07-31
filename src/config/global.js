@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
+      'Gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario',
     descripcionCurso:
       'Este componente introduce a los aprendices en la forma de tramitar novedades en la afiliación al sistema de salud, considerando procedimientos, requisitos y la normativa vigente. Se describen conceptos como el de portabilidad, su alcance y técnicas de comunicación para la atención de usuarios del sistema de salud colombiano.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -149,21 +149,21 @@ export default {
     {
       tema: '1. Novedades en la afiliación al SGSSS',
       referencia:
-        'Ministerio de Salud y Protección Social. (2022, 15 de septiembre). Afiliación al Sistema de Salud [Video]. YouTube. ',
+        'Ministerio de Salud y Protección Social. (2022, 15 de septiembre). <em>Afiliación al Sistema de Salud</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=e0IWd1YdkUc',
     },
     {
       tema: '1.2. Procedimiento para modificar afiliación al SGSSS',
       referencia:
-        'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio). Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud [Video]. YouTube. ',
+        'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio).<em> Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=0HeR3rr7l5U ',
     },
     {
       tema: '2. Portabilidad en el sistema de salud colombiano',
       referencia:
-        'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio). Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud [Video]. YouTube. ',
+        'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio). <em>Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=0HeR3rr7l5U ',
     },
@@ -176,7 +176,7 @@ export default {
     },
     {
       termino: 'BDUA',
-      significado: 'Base de Datos Única de Afiliados. ',
+      significado: ' Base de Datos Única de Afiliados. ',
     },
     {
       termino: 'Comunicación asertiva',
@@ -190,7 +190,7 @@ export default {
     },
     {
       termino: 'EPS',
-      significado: 'Entidad Promotora de Servicios de Salud.',
+      significado: ' Entidad Promotora de Servicios de Salud.',
     },
     {
       termino: 'Novedad en la afiliación',
@@ -221,7 +221,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Congreso de Colombia. (2011). Ley 1438 de 2011: Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. Diario Oficial No. 47.957. ',
+        'Congreso de Colombia. (2011). <em>Ley 1438 de 2011: Por medio de la cual se reforma el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. Diario Oficial No. 47.957.</em> ',
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_1438_2011.html',
     },
@@ -233,25 +233,25 @@ export default {
     },
     {
       referencia:
-        'Función Pública. (2013). Decreto 1683 de 2013: Por el cual se reglamenta el artículo 22 de la Ley 1438 de 2011 sobre portabilidad nacional en el Sistema General de Seguridad Social en Salud. ',
+        'Función Pública. (2013). <em>Decreto 1683 de 2013: Por el cual se reglamenta el artículo 22 de la Ley 1438 de 2011 sobre portabilidad nacional en el Sistema General de Seguridad Social en Salud.</em> ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=54074 ',
     },
     {
       referencia:
-        'Función Pública. (2016). Decreto 780 de 2016: Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. ',
+        'Función Pública. (2016). <em>Decreto 780 de 2016: <em>Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social. ',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=77813 ',
     },
     {
       referencia:
-        'Ministerio de Salud y protección Social. (2007). Ley 1122 de 2007: Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones. ',
+        'Ministerio de Salud y protección Social. (2007). <em>Ley 1122 de 2007: <em>Por la cual se hacen algunas modificaciones en el Sistema General de Seguridad Social en Salud y se dictan otras disposiciones.</em> ',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-1122-de-2007.pdf ',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (2016). Resolución 4622 de 2016: Por la cual se establece el reporte de los datos de afiliación al Sistema General de Seguridad Social en Salud, a planes voluntarios, Regímenes Especial y de Excepción y de las personas privadas de la libertad bajo la custodia y vigilancia del INPEC. ',
+        'Ministerio de Salud y Protección Social. (2016). <em>Resolución 4622 de 2016: Por la cual se establece el reporte de los datos de afiliación al Sistema General de Seguridad Social en Salud, a planes voluntarios, Regímenes Especial y de Excepción y de las personas privadas de la libertad bajo la custodia y vigilancia del INPEC.</em> ',
       link:
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/resolucion-4622-de-2016.pdf ',
     },

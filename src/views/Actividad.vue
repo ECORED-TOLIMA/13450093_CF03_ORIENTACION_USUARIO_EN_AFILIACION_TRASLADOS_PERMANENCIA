@@ -15,7 +15,8 @@ export default {
     cuestionario: {
       tema: 'tema_actividad_didactica',
       titulo: 'Cuestionario',
-      introduccion: 'texto_introductorio_actividad_didactica',
+      introduccion:
+        '<b> Objetivo:</b> evaluar la comprensión de los conceptos relacionados con la gestión de novedades en la afiliación, permitiendo a los participantes brindar orientación integral a los usuarios del sistema de salud colombiano.',
       barajarPreguntas: true,
       preguntas: [
         {
