@@ -144,7 +144,7 @@
           p #[b Aplicación práctica]: 
           p Cualquier novedad en la afiliación que limite el acceso oportuno a servicios atenta contra este derecho fundamental. 
           p.mb-0 La afiliación al SGSSS hace parte del cumplimiento del derecho a la seguridad social. Toda persona debe poder afiliarse y reportar novedades sin barreras.
-    .tarjeta-BG02.lg-px-md-5.px-4
+    .tarjeta-BG02.px-md-5.px-4
       .titulo.mb-4(data-aos="flip-up")
         img(src='@/assets/curso/icono.svg', alt='Imagen decorativa')
         h5.mb-0 Decreto 780 de 2016
@@ -250,28 +250,28 @@
     .tarjeta--BG043.p-4.px-lg-5.mb-4
       .tarjeta.tarjeta--BG04.p-4
         PasosB.color-acento-botones
-          .row(titulo="")
+          .row.justify-content-center.align-items-center(titulo="")
             .col-lg-7.col-12.mb-4.order-2.order-lg-1.mb-md-0
               h4 Escucha activa y verificación de la necesidad del usuario
               p El primer paso es recibir al usuario con una actitud amable, empática y profesional. 
               p Se debe preguntar y escuchar con atención cuál es el motivo de la consulta, identificando si se trata de una novedad en la afiliación, como un traslado de EPS, inclusión o retiro de un familiar, cambio de régimen, modificación de datos personales, nacimiento de un hijo, o cambio de residencia.
               p Una vez escuchado el caso, se debe clasificar adecuadamente el tipo de novedad, ya que cada una tiene requisitos y procedimientos específicos. En esta etapa también se puede consultar la BDUA (Base de Datos Única de Afiliados) para verificar el estado actual del usuario en el sistema.
 
-            .col-lg-4.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img20.png', alt='Texto que describa la imagen')
-          .row(titulo="")
-            .col-md-7.mb-4.order-2.order-lg-1.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.col-12.mb-4.order-2.order-lg-1.mb-md-0
               h4 Consulta de la normatividad aplicable
               p Después de identificar el tipo de novedad, se debe consultar la normativa vigente que regula el procedimiento. Por ejemplo, se puede revisar el Decreto 780 de 2016, la Resolución 4622 de 2016 o el Manual del Sistema de Afiliación Transaccional (SAT) para conocer los requisitos, documentos solicitados y plazos. 
               p Esta consulta permite orientar al usuario correctamente y sustentar la información con base legal.
 
-            .col-lg-4.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img21.png', alt='Texto que describa la imagen')
                 
-          .row(titulo="")
-            .col-lg-7.col-md-7.mb-4.order-2.order-lg-1.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.col-12.mb-4.order-2.order-lg-1.mb-md-0
               h4 Revisión de los documentos requeridos
               p Con base en la novedad identificada, se debe informar al usuario sobre los documentos necesarios para realizar el trámite. Por ejemplo:
               p Para incluir un hijo, se necesita el registro civil de nacimiento y el documento del afiliado principal.
@@ -280,47 +280,47 @@
               p Los documentos deben estar legibles, actualizados y completos. Si falta alguno, se debe explicar al usuario de forma clara qué debe conseguir y cómo puede obtenerlo.
 
 
-            .col-lg-4.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img22.png', alt='Texto que describa la imagen')
                 
-          .row(titulo="")
-            .col-lg-7.col-md-7.mb-4.order-2.order-lg-1.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.col-12.mb-4.order-2.order-lg-1.mb-md-0
               h4 Diligenciamiento del formulario o plataforma digital
               p Una vez verificados los documentos, se procede al diligenciamiento del formulario correspondiente, que puede ser físico o digital. En el caso del uso del SAT (Sistema de Afiliación Transaccional), hay que guiar al usuario para registrar la novedad en el sistema, respetando los campos obligatorios y validando los datos ingresados.
               p En caso de que el procedimiento se realice en papel, se debe asegurar que el formulario esté correctamente diligenciado, sin tachones ni errores, con firma del usuario y del funcionario responsable si aplica.
 
 
-            .col-lg-4.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img23.png', alt='Texto que describa la imagen')
                 
-          .row(titulo="")
-            .col-lg-7.col-md-7.mb-4.order-2.order-lg-1.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.col-12.mb-4.order-2.order-lg-1.mb-md-0
               h4 Registro, radicación y entrega de constancia
               p Después de llenar correctamente el formulario o registrar la novedad en el sistema, se debe radicar la solicitud siguiendo el protocolo de la EPS o entidad correspondiente. Se debe entregar al usuario una constancia del trámite o el número de radicado, el cual le servirá para hacer seguimiento. También se debe informar los tiempos estimados para que la novedad sea efectiva (por ejemplo, el traslado de EPS entra en vigor el primer día del mes siguiente a la radicación).
 
-            .col-lg-4.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img24.png', alt='Texto que describa la imagen')
                 
-          .row(titulo="")
-            .col-lg-7.col-md-7.mb-4.order-2.order-lg-1.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.col-12.mb-4.order-2.order-lg-1.mb-md-0
               h4 Seguimiento del caso y orientación al usuario
               p Como parte de un proceso integral, se debe invitar al usuario a hacer seguimiento a su trámite, ya sea consultando por teléfono, presencialmente o en línea. Además, se debe verificar que el usuario haya comprendido toda la información y responder de manera clara cualquier duda adicional.
               p En caso de presentarse inconsistencias en la actualización o rechazo del trámite, hay que saber cómo escalar el caso al funcionario responsable o brindar apoyo en la corrección.
 
 
-            .col-lg-4.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img25.png', alt='Texto que describa la imagen')
                 
-          .row(titulo="")
-            .col-lg-7.col-md-7.mb-4.order-2.order-lg-1.mb-md-0
+          .row.justify-content-center.align-items-center(titulo="")
+            .col-lg-7.col-12.mb-4.order-2.order-lg-1.mb-md-0
               h4 Registro en el sistema interno o bitácora de atención
               p Finalmente, hay que dejar constancia del proceso en el sistema o bitácora de atención al usuario, indicando la fecha, tipo de novedad tramitada, documentos recibidos, observaciones, y estado del trámite. Esto permite mantener un control interno en la entidad y es útil para auditorías o seguimientos posteriores.
 
-            .col-lg-4.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img26.png', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-5

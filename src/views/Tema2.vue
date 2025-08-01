@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Este mecanismo fue establecido para garantizar el acceso a los servicios de salud, incluso cuando el afiliado cambia de lugar de residencia temporal o permanentemente. La Ley 1438 de 2011 y el Decreto 1683 de 2013 son las normas que regulan la portabilidad y obligan a las EPS a garantizar la atención médica de sus usuarios en cualquier parte del territorio nacional, mediante redes alternas de prestadores de servicios de salud.
     p.mb-4 Para activar la portabilidad, el afiliado debe informar a su EPS el lugar al que se traslada, el tiempo estimado de permanencia y el tipo de atención que necesita (urgencias, consultas generales, tratamientos específicos, etc.). Esta notificación puede hacerse en persona, por teléfono o a través de los canales virtuales que la EPS tenga habilitados. En algunos casos, también se puede realizar mediante el Sistema de Afiliación Transaccional (SAT).
-    .tarjeta-BG02.lg-px-5.px-4
+    .tarjeta-BG02.px-5.px-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-10.mb-4
           figure
@@ -60,7 +60,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Proceso de solicitud de novedad en la afiliación
     p.mb-4 Una novedad importante en el proceso de solicitud es que puede realizarse de manera virtual o presencial, dependiendo de la EPS. En muchos casos, los usuarios pueden usar la plataforma del Sistema de Afiliación Transaccional (SAT) para registrar directamente la modificación desde un computador o celular con conexión a internet. Esta opción es especialmente útil en zonas donde no hay oficinas físicas cercanas o cuando se desea evitar desplazamientos.
-    .tarjeta-BG02.lg-px-5.px-4
+    .tarjeta-BG02.px-5.px-4
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.order-2.order-lg-1
           p Cuando el trámite se realiza presencialmente, el usuario debe llenar un formulario físico de novedades, el cual debe estar completamente diligenciado y firmado. Como ya se mencionó, los formularios no deben presentar tachaduras ni espacios en blanco, ya que esto puede generar devoluciones del trámite. Además, se debe verificar que se anexen los documentos exigidos en cada caso y que estos sean legibles y actualizados, como registros civiles, cédulas o certificaciones laborales.

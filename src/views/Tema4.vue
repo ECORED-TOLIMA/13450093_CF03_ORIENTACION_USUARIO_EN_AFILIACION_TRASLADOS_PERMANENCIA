@@ -110,7 +110,7 @@
           .col-10
             h4.text-center Mujer gestante
             p Si una mujer gestante en situación de desplazamiento llega sin cédula ni documentos del Sisbén, se debe priorizar su atención por su condición de embarazo y de víctima del conflicto armado. En este caso, se le puede permitir afiliarse, mediante una declaración juramentada, se le ofrece orientación en lenguaje sencillo y se le apoya en el diligenciamiento de formularios. Además, se debe garantizar su acceso inmediato a los controles prenatales, brindándole toda la información necesaria para continuar su atención en salud.
-      .col-md.tarjeta.color-secundario.tarjcone.p-5
+      .col-lg.tarjeta.color-secundario.tarjcone.p-5
         .row.justify-content-center.mb-4
           .col-5
             figure
@@ -119,7 +119,7 @@
           .col-10
             h4.text-center Persona con discapacidad auditiva
             p Otro caso puede ser el de una persona mayor con discapacidad auditiva que desea trasladarse de EPS, tras mudarse de ciudad. En este escenario, se debe asegurar que la comunicación sea clara y adaptada a su condición, permitiendo el acompañamiento de un familiar como apoyo. Se debe explicar el proceso con calma, confirmar la comprensión del usuario y garantizar que la información también quede por escrito, para que pueda revisarla posteriormente.
-      .col-md.tarjeta.color-acento-contenido.tarjcone.p-5
+      .col-lg.tarjeta.color-acento-contenido.tarjcone.p-5
         .row.justify-content-center.mb-4
           .col-5
             figure
