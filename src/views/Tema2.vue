@@ -62,12 +62,12 @@
     p.mb-4 Una novedad importante en el proceso de solicitud es que puede realizarse de manera virtual o presencial, dependiendo de la EPS. En muchos casos, los usuarios pueden usar la plataforma del Sistema de Afiliación Transaccional (SAT) para registrar directamente la modificación desde un computador o celular con conexión a internet. Esta opción es especialmente útil en zonas donde no hay oficinas físicas cercanas o cuando se desea evitar desplazamientos.
     .tarjeta-BG02.px-5.px-4
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5.order-2.order-lg-1
+        .col-lg-6.order-2.order-lg-1
           p Cuando el trámite se realiza presencialmente, el usuario debe llenar un formulario físico de novedades, el cual debe estar completamente diligenciado y firmado. Como ya se mencionó, los formularios no deben presentar tachaduras ni espacios en blanco, ya que esto puede generar devoluciones del trámite. Además, se debe verificar que se anexen los documentos exigidos en cada caso y que estos sean legibles y actualizados, como registros civiles, cédulas o certificaciones laborales.
           p Al radicar la solicitud, ya sea en línea o en oficina, el sistema o el funcionario debe entregar al usuario un comprobante de radicación con un número único que permita hacer seguimiento. Este comprobante es fundamental porque es la evidencia formal del trámite y su fecha marca el inicio de los tiempos establecidos para que la novedad se haga efectiva.
           p Es importante conocer la responsabilidad de informar al usuario sobre los tiempos estimados de respuesta para cada tipo de novedad. 
 
-        .col-lg-5.col-8.order-1.order-lg-2.mb-4
+        .col-lg-4.col-8.order-1.order-lg-2.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen')
     p.mb-4 Por ejemplo, estas novedades:
