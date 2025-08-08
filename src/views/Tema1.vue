@@ -50,7 +50,7 @@
                 p Cuando el afiliado desea agregar o excluir a miembros del grupo familiar, debe realizar esta novedad. Puede tratarse de la inclusión de un hijo recién nacido, un cónyuge o pareja permanente, o padres dependientes económicamente. 
                 .bgblanco.p-3
                   h4 Requisitos 
-                  p Para ello, se requiere documentación como el registro civil de nacimiento (para hijos), acta de matrimonio o declaración juramentada de convivencia (para conyugue) y en caso de padres, una certificación de dependencia económica.
+                  p Para ello, se requiere documentación como el registro civil de nacimiento (para hijos), acta de matrimonio o declaración juramentada de convivencia (para cónyuge) y en caso de padres, una certificación de dependencia económica.
                   p En cuanto al retiro de beneficiarios, este debe hacerse cuando un miembro ya no cumple con los requisitos para seguir como tal, como por ejemplo al cumplir la mayoría de edad, por fallecimiento o por separación conyugal. En estos casos, deben presentarse los documentos que respalden el motivo del retiro (acta de defunción, sentencia de divorcio, etc.).
 
               .col-lg-12.order-lg-3.order-1.mb-md-4
