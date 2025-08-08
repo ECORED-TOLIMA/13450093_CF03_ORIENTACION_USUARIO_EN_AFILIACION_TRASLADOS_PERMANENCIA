@@ -72,22 +72,39 @@
             img(src='@/assets/curso/temas/tema2/img7.png', alt='Texto que describa la imagen')
     p.mb-4 Por ejemplo, estas novedades:
     .row.mb-5
-      .col-lg-6
-        .tarjeta-avatar-b.h-100.mb-5
-          .tarjeta-avatar-b__img
+      .col-lg-6.mb-4
+        .movil
+          .tarjeta-avatar
             img(src='@/assets/curso/temas/tema2/img8.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--verde
-            .p-4
-              h5 Traslado de EPS
-              p.mb-0 La solicitud se aplica el primer día del mes siguiente al de la radicación.
-      .col-lg-6
-        .tarjeta-avatar-b.h-100.mb-5
-          .tarjeta-avatar-b__img
+            .tarjeta.color-primario.w-100
+              .text-black.p-4
+                h5 Traslado de EPS
+                p.mb-0 La solicitud se aplica el primer día del mes siguiente al de la radicación.
+        .desktop
+          .tarjeta-avatar-b.h-100.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/temas/tema2/img8.svg' alt='AvatarTop')
+            .tarjeta.tarjeta--verde
+              .p-4
+                h5 Traslado de EPS
+                p.mb-0 La solicitud se aplica el primer día del mes siguiente al de la radicación.
+      .col-lg-6.mb-4
+        .movil
+          .tarjeta-avatar
             img(src='@/assets/curso/temas/tema2/img9.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--verde
-            .p-4
-              h5 Cambio de datos personales
-              p.mb-0 La solicitud puede tardar menos tiempo que la del cambio de EPS. 
+            .tarjeta.color-primario.w-100
+              .text-black.p-4
+                h5 Cambio de datos personales
+                p.mb-0 La solicitud puede tardar menos tiempo que la del cambio de EPS. 
+
+        .desktop
+          .tarjeta-avatar-b.h-100.mb-5
+            .tarjeta-avatar-b__img
+              img(src='@/assets/curso/temas/tema2/img9.svg' alt='AvatarTop')
+            .tarjeta.tarjeta--verde
+              .p-4
+                h5 Cambio de datos personales
+                p.mb-0 La solicitud puede tardar menos tiempo que la del cambio de EPS. 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-primario.p-4.mb-4

@@ -146,8 +146,8 @@ export default {
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento sobre gestión de novedades en la afiliación al SGSSS con enfoque diferencial y atención al usuario.',
