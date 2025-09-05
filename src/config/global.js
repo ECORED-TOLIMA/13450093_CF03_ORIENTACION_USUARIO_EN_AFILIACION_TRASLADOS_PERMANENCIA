@@ -158,14 +158,14 @@ export default {
       referencia:
         'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio).<em> Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud</em> [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=0HeR3rr7l5U ',
+      link: 'https://www.youtube.com/watch?v=0HeR3rr7l5U',
     },
     {
       tema: '2. Portabilidad en el sistema de salud colombiano',
       referencia:
         'Ecosistema de Recurso Educativos SENA. (2025, 3 de junio). <em>Orientación al usuario en el proceso de afiliación y registro de novedades del servicio de salud</em> [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=0HeR3rr7l5U ',
+      link: 'https://www.youtube.com/watch?v=z91giRwDma4',
     },
   ],
   glosario: [
